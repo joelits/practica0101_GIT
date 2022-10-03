@@ -1,1 +1,630 @@
-<mxfile host="app.diagrams.net" modified="2022-10-03T20:51:13.315Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.50" version="20.4.0" etag="x6ftSncth82Z6ljInzJs" type="github"><diagram id="lKoKj0EoNgVF1lo2SWV0">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-03T22:08:29.664Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.50" etag="DtGSZKS34j3-VBTJReex" version="20.4.0" type="github">
+  <diagram id="lKoKj0EoNgVF1lo2SWV0" name="Página-1">
+    <mxGraphModel dx="1156" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="110" as="sourcePoint" />
+            <mxPoint x="420" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-3" value="INIT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-4" value="Escribir (&quot;Introduce dinero&quot;)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="160" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-5" value="Leer(&quot;Introduce dinero&quot;)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="280" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-4" target="Hr4-TKAOPtDyk-HaTcz0-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="190" as="sourcePoint" />
+            <mxPoint x="440" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-8" value="dinero_introducido= 2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="400" width="215" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-5" target="Hr4-TKAOPtDyk-HaTcz0-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="500" as="sourcePoint" />
+            <mxPoint x="440" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-15" value="escribir(&quot;La cantidad de dinero no es suficiente introduce mas dinero&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="480" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-17" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="500" as="sourcePoint" />
+            <mxPoint x="200" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Hr4-TKAOPtDyk-HaTcz0-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="440" as="sourcePoint" />
+            <mxPoint x="440" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-19" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Hr4-TKAOPtDyk-HaTcz0-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="440" as="sourcePoint" />
+            <mxPoint x="440" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Hr4-TKAOPtDyk-HaTcz0-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="440" as="sourcePoint" />
+            <mxPoint x="440" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-21" value="entregar botella y cambio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="480" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-22" value="false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-23" value="true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-27" value="cambio = dinero_introducido - 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="600" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-21" target="Hr4-TKAOPtDyk-HaTcz0-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="460" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-29" value="si cambio &amp;gt;= 500" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="710" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-27" target="Hr4-TKAOPtDyk-HaTcz0-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="760" as="sourcePoint" />
+            <mxPoint x="440" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-29" target="Hr4-TKAOPtDyk-HaTcz0-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="760" as="sourcePoint" />
+            <mxPoint x="640" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-32" value="devuelve 500" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="870" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-33" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="760" as="sourcePoint" />
+            <mxPoint x="640" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-34" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="1020" as="sourcePoint" />
+            <mxPoint x="480" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-35" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="1020" as="sourcePoint" />
+            <mxPoint x="440" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-36" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1020" as="sourcePoint" />
+            <mxPoint x="440" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Hr4-TKAOPtDyk-HaTcz0-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="770" as="sourcePoint" />
+            <mxPoint x="440" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-38" value="true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="830" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-39" value="false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="710" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-40" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-29" target="Hr4-TKAOPtDyk-HaTcz0-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="910" as="sourcePoint" />
+            <mxPoint x="720" y="1100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="910" />
+              <mxPoint x="800" y="980" />
+              <mxPoint x="720" y="1010" />
+              <mxPoint x="660" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-41" value="cambio &amp;gt;= 200" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1089" width="230" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-42" value="cambio = cambio -500" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="950" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-43" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-32" target="Hr4-TKAOPtDyk-HaTcz0-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="970" as="sourcePoint" />
+            <mxPoint x="640" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-42" target="Hr4-TKAOPtDyk-HaTcz0-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-48" value="devuelve 200" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="634.5" y="1180" as="sourcePoint" />
+            <mxPoint x="635" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1280" as="sourcePoint" />
+            <mxPoint x="635" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-51" value="cambio = cambio - 200" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-52" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="Hr4-TKAOPtDyk-HaTcz0-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1350" as="sourcePoint" />
+            <mxPoint x="440" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-53" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1350" as="sourcePoint" />
+            <mxPoint x="440" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-54" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Hr4-TKAOPtDyk-HaTcz0-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1140" as="sourcePoint" />
+            <mxPoint x="440" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-55" value="cambio &amp;gt;= 100" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1440" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-56" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-41" target="Hr4-TKAOPtDyk-HaTcz0-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1270" as="sourcePoint" />
+            <mxPoint x="440" y="1220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="1190" />
+              <mxPoint x="780" y="1260" />
+              <mxPoint x="760" y="1380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-77" value="true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-78" value="false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1089" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-79" value="cambio &amp;gt;= 200" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1089" width="230" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-80" value="devuelve 200" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-81" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="634.5" y="1180" as="sourcePoint" />
+            <mxPoint x="635" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-82" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="Hr4-TKAOPtDyk-HaTcz0-80" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1280" as="sourcePoint" />
+            <mxPoint x="635" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-83" value="cambio = cambio - 200" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-84" value="" style="endArrow=none;html=1;rounded=0;" edge="1" target="Hr4-TKAOPtDyk-HaTcz0-83" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1350" as="sourcePoint" />
+            <mxPoint x="440" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-85" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1350" as="sourcePoint" />
+            <mxPoint x="440" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-86" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" target="Hr4-TKAOPtDyk-HaTcz0-79" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1140" as="sourcePoint" />
+            <mxPoint x="440" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-87" value="true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-88" value="false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1089" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-90" value="devuelve 100" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1565.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-92" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-90">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="1635.5" as="sourcePoint" />
+            <mxPoint x="645" y="1675.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-93" value="cambio = cambio - 100" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1675.5" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-94" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="Hr4-TKAOPtDyk-HaTcz0-93">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="1705.5" as="sourcePoint" />
+            <mxPoint x="450" y="1655.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-95" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="1705.5" as="sourcePoint" />
+            <mxPoint x="450" y="1495.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-96" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Hr4-TKAOPtDyk-HaTcz0-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="1495.5" as="sourcePoint" />
+            <mxPoint x="510" y="1485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-97" value="true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1545.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-98" value="false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-100" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-55" target="Hr4-TKAOPtDyk-HaTcz0-102">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="1480" as="sourcePoint" />
+            <mxPoint x="640" y="1785.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="1535.5" />
+              <mxPoint x="780" y="1605.5" />
+              <mxPoint x="760" y="1725.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-101" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-55" target="Hr4-TKAOPtDyk-HaTcz0-90">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1710" as="sourcePoint" />
+            <mxPoint x="440" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-102" value="cambio &amp;gt;= 50" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1790" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-103" value="devuelve 50" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1915.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-104" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-103">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="1985.5" as="sourcePoint" />
+            <mxPoint x="645" y="2025.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-105" value="cambio = cambio - 50" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="2025.5" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-106" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="Hr4-TKAOPtDyk-HaTcz0-105">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="2055.5" as="sourcePoint" />
+            <mxPoint x="450" y="2005.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-107" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="2055.5" as="sourcePoint" />
+            <mxPoint x="450" y="1845.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-108" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Hr4-TKAOPtDyk-HaTcz0-102">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="1845.5" as="sourcePoint" />
+            <mxPoint x="510" y="1835" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-109" value="true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1895.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-110" value="false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1790" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-111" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-102" target="Hr4-TKAOPtDyk-HaTcz0-125">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="1830" as="sourcePoint" />
+            <mxPoint x="640" y="2135.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="1885.5" />
+              <mxPoint x="780" y="1955.5" />
+              <mxPoint x="760" y="2075.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-112" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-102" target="Hr4-TKAOPtDyk-HaTcz0-103">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="2060" as="sourcePoint" />
+            <mxPoint x="440" y="2010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-125" value="cambio &amp;gt;= 10" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="2130" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-126" value="devuelve 10" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="581" y="2255.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-127" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-126">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="2325.5" as="sourcePoint" />
+            <mxPoint x="645" y="2365.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-128" value="cambio = cambio - 10" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="2365.5" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-129" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="Hr4-TKAOPtDyk-HaTcz0-128">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="2395.5" as="sourcePoint" />
+            <mxPoint x="450" y="2345.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-130" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="2395.5" as="sourcePoint" />
+            <mxPoint x="450" y="2185.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-131" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Hr4-TKAOPtDyk-HaTcz0-125">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="2185.5" as="sourcePoint" />
+            <mxPoint x="510" y="2175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-132" value="true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="2235.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-133" value="false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="2130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-134" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-125" target="Hr4-TKAOPtDyk-HaTcz0-137">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="2170" as="sourcePoint" />
+            <mxPoint x="640" y="2475.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="2225.5" />
+              <mxPoint x="780" y="2295.5" />
+              <mxPoint x="760" y="2415.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-135" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-125" target="Hr4-TKAOPtDyk-HaTcz0-126">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="2400" as="sourcePoint" />
+            <mxPoint x="440" y="2350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-137" value="cambio &amp;gt;= 5" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="2480" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-138" value="devuelve 5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="2605.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-139" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-138">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="2675.5" as="sourcePoint" />
+            <mxPoint x="645" y="2715.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-140" value="cambio = cambio - 5" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="2715.5" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-141" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="Hr4-TKAOPtDyk-HaTcz0-140">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="2745.5" as="sourcePoint" />
+            <mxPoint x="450" y="2695.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-142" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="2745.5" as="sourcePoint" />
+            <mxPoint x="450" y="2535.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-143" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Hr4-TKAOPtDyk-HaTcz0-137">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="2535.5" as="sourcePoint" />
+            <mxPoint x="510" y="2525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-144" value="true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="2585.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-145" value="false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="2480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-146" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-137" target="Hr4-TKAOPtDyk-HaTcz0-148">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="2520" as="sourcePoint" />
+            <mxPoint x="640" y="2825.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="2575.5" />
+              <mxPoint x="780" y="2645.5" />
+              <mxPoint x="760" y="2765.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-147" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-137" target="Hr4-TKAOPtDyk-HaTcz0-138">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="2750" as="sourcePoint" />
+            <mxPoint x="440" y="2700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-148" value="cambio &amp;gt;= 2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="2830" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-149" value="devuelve 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="2955.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-150" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-149">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="3025.5" as="sourcePoint" />
+            <mxPoint x="645" y="3065.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-151" value="cambio = cambio - 2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="3065.5" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-152" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="Hr4-TKAOPtDyk-HaTcz0-151">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="3095.5" as="sourcePoint" />
+            <mxPoint x="450" y="3045.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-153" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="3095.5" as="sourcePoint" />
+            <mxPoint x="450" y="2885.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-154" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Hr4-TKAOPtDyk-HaTcz0-148">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="2885.5" as="sourcePoint" />
+            <mxPoint x="510" y="2875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-155" value="true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="2935.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-156" value="false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="2830" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-157" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-148" target="Hr4-TKAOPtDyk-HaTcz0-160">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="2870" as="sourcePoint" />
+            <mxPoint x="640" y="3175.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="2925.5" />
+              <mxPoint x="780" y="2995.5" />
+              <mxPoint x="760" y="3115.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-158" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-148" target="Hr4-TKAOPtDyk-HaTcz0-149">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="3100" as="sourcePoint" />
+            <mxPoint x="440" y="3050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-160" value="cambio &amp;gt;= 1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="3180" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-161" value="devuelve 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="581" y="3305.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-162" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-161">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="3375.5" as="sourcePoint" />
+            <mxPoint x="645" y="3415.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-163" value="cambio = cambio - 1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="3415.5" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-167" value="true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="515" y="3365.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-168" value="false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="3180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-169" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-160" target="Hr4-TKAOPtDyk-HaTcz0-172">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="3220" as="sourcePoint" />
+            <mxPoint x="640" y="3525.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="3275.5" />
+              <mxPoint x="780" y="3345.5" />
+              <mxPoint x="760" y="3465.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-170" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-160" target="Hr4-TKAOPtDyk-HaTcz0-161">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="3450" as="sourcePoint" />
+            <mxPoint x="440" y="3400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-171" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-163" target="Hr4-TKAOPtDyk-HaTcz0-172">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="3630" as="sourcePoint" />
+            <mxPoint x="640" y="3530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-172" value="leer(&quot;Gracias por su compra, recoja el cambio&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="3560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-173" value="END" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="3710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-176" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="580" as="sourcePoint" />
+            <mxPoint x="230" y="3556" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-178" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hr4-TKAOPtDyk-HaTcz0-172">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="3620" as="sourcePoint" />
+            <mxPoint x="640" y="3650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-179" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="3650" as="sourcePoint" />
+            <mxPoint x="480" y="3650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-180" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="3560" as="sourcePoint" />
+            <mxPoint x="480" y="3560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-181" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="3550" as="sourcePoint" />
+            <mxPoint x="230" y="3560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr4-TKAOPtDyk-HaTcz0-182" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Hr4-TKAOPtDyk-HaTcz0-173">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="3560" as="sourcePoint" />
+            <mxPoint x="440" y="3570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
